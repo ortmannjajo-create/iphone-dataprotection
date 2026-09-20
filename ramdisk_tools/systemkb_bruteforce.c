@@ -20,7 +20,7 @@
  /private/var/mobile/Library/ConfigurationProfiles/PublicInfo/EffectiveUserSettings.plist.plist
  plist["restrictedValue"]["passcodeKeyboardComplexity"]
  */
-
+"]["
 void saveKeybagInfos(CFDataRef kbkeys, KeyBag* kb, uint8_t* key835, char* passcode, uint8_t* passcodeKey, CFMutableDictionaryRef classKeys)
 {
     CFMutableDictionaryRef out = device_info(-1, NULL);
